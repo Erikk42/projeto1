@@ -1,20 +1,32 @@
 package executavel;
+import java.util.Date;
 
 public class pessoas {
-	
+
 	private String nome;
-	
+
 	private String sobrenome;
+
+	private String idade;
 	
-	private String cpf;
+	private Date dataNascimento;
+	
 	
 
-	public String getCpf() {
-		return cpf;
+	public String getIdade() {
+		return idade;
 	}
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
+	public void setIdade(String idade) {
+		this.idade = idade;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 
 	public String getNome() {
@@ -31,13 +43,7 @@ public class pessoas {
 
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
-		
-	
-	}
-	
 
-	
-	
-	
-	
+	}
+
 }
